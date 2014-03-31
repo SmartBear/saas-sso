@@ -1,0 +1,18 @@
+#Build artifacts:
+target/
+bin/
+
+#Eclipse stuff:
+.settings/
+.classpath
+.project
+
+#IDEA stuff:
+*.iml
+.idea/
+lib/
+
+#Others
+*pom.xml.versionsBackup
+*dependency-reduced-pom.xml
+distribution/
