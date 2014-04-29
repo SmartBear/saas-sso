@@ -1,14 +1,13 @@
 package com.smartbear.sso.impl.v1;
 
-import java.net.URL;
-import java.net.URLConnection;
-import java.util.Set;
-
-import org.json.simple.JSONObject;
-
 import com.smartbear.sso.IDP;
 import com.smartbear.sso.SSOException;
 import com.smartbear.sso.User;
+import org.json.simple.JSONObject;
+
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.Set;
 
 public class IDPImpl extends IDP {
 	private String userInfoEndpointURL = "https://accounts.ftr.smartbear.com/api/v1/auth/openid-connect/userinfo";
